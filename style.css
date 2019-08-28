@@ -1,4 +1,33 @@
-* {
-    background: red;
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7d197;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 80%;
+    border: 1px solid brown;
+    border-radius: 25px;
+    padding: 5%;
+}
+.image{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid brown;
+    float: right;
 
+}
+header {
+    text-align: center;
+ 
+}
+
+ul {
+    list-style-type: circle;
+    
 }

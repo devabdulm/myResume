@@ -29,5 +29,11 @@ header {
 
 ul {
     list-style-type: circle;
-    
+   
+}
+
+.form{
+ border: 1px solid black;
+ border-radius: 10px;
+
 }

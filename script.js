@@ -1,0 +1,1 @@
+let mailVer = document.querySelector(.email);

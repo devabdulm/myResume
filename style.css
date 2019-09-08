@@ -33,7 +33,9 @@ ul {
 }
 
 .form{
- border: 1px solid black;
- border-radius: 10px;
+ border-top: 1px solid black;
 
+}
+footer{
+    text-align: center;
 }

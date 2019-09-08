@@ -53,16 +53,27 @@
     <div class="form">
        
         <h2>CONTACT FORM</h2>
-        <form>
-            Name: <input type="text"> <br>
-            Email: <input type="email" class="email"> <br>
-            Title: <input type="text"> <br>
-            Message: <textarea name="" id="" cols="30" rows="10"></textarea>
-           
-        </form>
+        <form name="contForm" onsubmit="return validateForm()" method="POST" action="submit.php">
+            Name: <br>
+            <input type="text" name="Name"> <br>
+            Email: <br>
+            <input type="email" name="Email"> <br>
+            Title: <br> 
+            <input type="text" name="Title"> <br>
+            Message: <br> 
+            <textarea name="Message" id="" cols="30" rows="10"></textarea> <br>
+            <input type="submit" name="Submit">
+
+        </form>  
+         
+    
     </div>
     </div>
      
+<footer>Designed By devAbdulm &copy;</footer>
+<script src="script.js">
 
+
+</script>
 </body>
 </html>
